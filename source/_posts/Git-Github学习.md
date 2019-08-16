@@ -13,8 +13,7 @@ categories: 学习
     <script src="https://use.fontawesome.com/9c273aaf8d.js"></script>
 </head> 
 
-> <i class = "fa fa-quote-left fa-3x fa-pull-left"></i>
-> +Git和Github是所有程序员都需要了解并且会使用的工具，它们能很好地让你对软件/代码的版本进行控制、多人协同编辑代码、代码开源、代码发布等等。~~Github也是世界上最大的同性交友平台~~，无论如何，Git和Github都是一个合格的程序员需要了解的东西。那么今天就开始Git&Github的探索之旅
+> <i class = "fa fa-quote-left fa-3x fa-pull-left"></i>Git和Github是所有程序员都需要了解并且会使用的工具，它们能很好地让你对软件/代码的版本进行控制、多人协同编辑代码、代码开源、代码发布等等。~~Github也是世界上最大的同性交友平台~~，无论如何，Git和Github都是一个合格的程序员需要了解的东西。那么今天就开始Git&Github的探索之旅
 <!--more-->
 
 Github学习
@@ -131,18 +130,39 @@ Git的命令行操作
 ### 基本操作
 
 1. 状态查看操作
-```bash
-git status
-```
-查看工作区、暂存区状态
+   - ```bash
+      git status
+      ```
+      查看工作区、暂存区状态  
 2. 添加操作
-```bash
-git add [file name]
-```
-将工作区的新建或修改添加到暂存区
+   -  ```bash
+       git add [file name]
+      ```
+      将工作区的新建或修改添加到暂存区  
 3. 提交操作
-```bash
-git commit -m "commit message" [file name]
-```
-将暂存区的东西提交到本地库
+   - ```bash
+      it commit -m "commit message" [file name]
+     ```
+      将暂存区的东西提交到本地库  
+4. 查看历史记录
+   - ```bash
+     git log
+     ```
+     ![效果示意图](https://s2.ax1x.com/2019/08/16/mmAALd.png)
+     > 多屏显示控制方式
+     > - 空格向下翻页
+     > - b向上翻页
+     > - q退出
+   - ```bash
+     git log --pretty=oneline
+     ```
+     ![效果示意图](https://s2.ax1x.com/2019/08/16/mmAksH.png)
+   - ```bash
+     git log oneline
+     ```
+     ![效果示意图](https://s2.ax1x.com/2019/08/16/mmA5OH.png)
+   - ```bash
+     git reflog
+     ```
+     ![效果示意图](https://s2.ax1x.com/2019/08/16/mmAj1S.png)
 
