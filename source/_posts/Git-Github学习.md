@@ -166,8 +166,18 @@ Git的命令行操作
      ```
      ![效果示意图](https://s2.ax1x.com/2019/08/16/mmAj1S.png)
 5. 版本的前进后退
-   - 法一:基于索引值
-
-   - 法二:基于^符号
-   - 法三:基于~符号
-1123123123512345623563456234
+   - 法一:基于索引值[推荐]
+     ```bash
+     git reset --hard [索引值]
+     (此处的索引值可以用reflog中的缩减版)
+     ```
+   - 法二:基于^符号:只能往后退
+     ```bash
+     git reset --hard HEAD^ (退后一版)
+     git reset --hard HEAD^^ (退后两版)
+     git reset --hard HEAD^^^ (退后三版)
+     ```
+   - 法三:基于~符号:只能往后退
+     ```bash
+     git reset --hard HEAD~n (退后n版)
+     ```
