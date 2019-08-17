@@ -97,7 +97,7 @@ fireworks: true
 
 # Analysis
 # ---------------
-baidu_analytics:
+baidu_analytics: https://hm.baidu.com/hm.js?6fac4b23051c46032d22db78e22ac92d
 
 google_analytics:
 
