@@ -73,8 +73,10 @@ algolia_search:
 # Please see doc for more details: https://molunerfinn.com/hexo-theme-melody-doc/#/third-party-support?id=local-search
 # ---------------
 local_search:
-  enable: false
-
+  enable: true # or false
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "好像没有${query}的结果诶..." # if there are no result
 # MathJax
 # Please see doc for more details: https://molunerfinn.com/hexo-theme-melody-doc/#/third-party-support?id=mathjax
 # ---------------
