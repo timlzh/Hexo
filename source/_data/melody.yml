@@ -61,7 +61,7 @@ social:
 # Algolia search
 # ---------------
 algolia_search:
-  enable: true # or false
+  enable: false # or false
   hits:
     per_page: 10 # the number of search results per page
   labels:
