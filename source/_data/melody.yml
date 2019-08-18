@@ -243,7 +243,7 @@ valine:
 # ---------------
 since: 2019
 
-footer_custom_text: Hi, welcome to my <a href="https://timlzh.github.io">blog</a>!
+footer_custom_text: Hi, welcome to my <a href="http://itstim.xyz">blog</a>!
 
 ICP:
   enable: false
