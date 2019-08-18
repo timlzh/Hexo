@@ -1,5 +1,5 @@
 ---
-title: (更新中)Git&Github学习
+title: Git&Github学习
 date: 2019-08-16 10:58:13
 tags: 
  - Git
@@ -331,4 +331,29 @@ Github
    - ![邀请成员进项目](https://s2.ax1x.com/2019/08/17/muzinI.png)
      “A”把邀请链接发送给“B”，“B”登录自己的 GitHub账号，访问邀请链接。
    - ![邀请成员进项目](https://s2.ax1x.com/2019/08/18/mQ35X4.png)
-   - 
+6. 拉取
+   - 在了解拉取这个操作之前，我们先了解另外一个操作`fetch`，即读取，抓取。它的主要作用是读取git远程库的内容。它的使用方法是:
+
+     ```bash
+     git fetch [远程库地址别名] [远程分支名]
+     ```
+
+   - 而`pull`，拉取命令，相当于读取和合并两个命令
+
+     ```bash
+     git pull [远程库地址别名] [远程分支名]
+     =
+     git fetch [远程库地址别名] [远程分支名]
+     +
+     git merge [远程库地址别名/远程分支名]
+     ```
+
+> <i class = "fa fa-quote-left fa-3x fa-pull-left"></i>终于，在三天的边学边写下，学完了大部分基础的Git和Github的操作。还是比较难的，建议新手可以再去看看别的教程。
+
+
+参考:  
+![Bilibili尚硅谷Git教程](https://s2.ax1x.com/2019/08/18/mlij74.png)  
+[Bilibili尚硅谷Git教程](https://www.bilibili.com/video/av24441039/ "尚硅谷bilibili")
+
+资料下载:  
+[密码ug1v](https://pan.baidu.com/s/1wY4L8HHK38RInfGXtb2GGA  "尚硅谷笔记")
