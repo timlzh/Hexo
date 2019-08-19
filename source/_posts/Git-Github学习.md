@@ -293,60 +293,68 @@ Git 就是靠这种机制来从根本上保证数据完整性的。
 Github
 ---
 
-1. 账号信息
-   - Github注册(略)
-   - 创建仓库:New repository  
-     ![新建仓库](https://s2.ax1x.com/2019/08/17/muw0w4.png)
-     ![仓库设置](https://s2.ax1x.com/2019/08/17/mu0Xgx.png)
-2. 给远程库取一个别名
-   - 第一步:获取仓库的html地址
-   - 第二步:在本地Git中执行命令
+### 账号信息
 
-     ```bash
-     git remote add [别名] [html地址]
-     ```
+- Github注册(略)
+- 创建仓库:New repository  
+  ![新建仓库](https://s2.ax1x.com/2019/08/17/muw0w4.png)
+  ![仓库设置](https://s2.ax1x.com/2019/08/17/mu0Xgx.png)
 
-   - 之后可以用`git remote -v`来查看所有仓库的别名
-     ![给远程库取别名](https://s2.ax1x.com/2019/08/17/muBSbD.png)
-3. 推送
-   - 在本地Git中执行命令
+### 给远程库取一个别名
+- 第一步:获取仓库的html地址
+- 第二步:在本地Git中执行命令
 
-     ```bash
-     git push [别名] [分支名]
-     ```
+```bash
+git remote add [别名] [html地址]
+```
 
-4. 克隆
-   - 在本地Git中执行操作
+- 之后可以用`git remote -v`来查看所有仓库的别名
+ ![给远程库取别名](https://s2.ax1x.com/2019/08/17/muBSbD.png)
+  
+### 推送
 
-     ```bash
-     git clone [远程地址]
-     ```
+- 在本地Git中执行命令
 
-   - 效果
-     - 完整下载远程库
-     - 创建 origin 远程地址别名
-     - 初始化本地库
+```bash
+git push [别名] [分支名]
+```
 
-5. 邀请成员进入项目
-   - ![邀请成员进项目](https://s2.ax1x.com/2019/08/17/muzinI.png)
-     “A”把邀请链接发送给“B”，“B”登录自己的 GitHub账号，访问邀请链接。
-   - ![邀请成员进项目](https://s2.ax1x.com/2019/08/18/mQ35X4.png)
-6. 拉取
-   - 在了解拉取这个操作之前，我们先了解另外一个操作`fetch`，即读取，抓取。它的主要作用是读取git远程库的内容。它的使用方法是:
+### 克隆
 
-     ```bash
-     git fetch [远程库地址别名] [远程分支名]
-     ```
+- 在本地Git中执行操作
 
-   - 而`pull`，拉取命令，相当于读取和合并两个命令
+```bash
+git clone [远程地址]
+```
 
-     ```bash
-     git pull [远程库地址别名] [远程分支名]
-     =
-     git fetch [远程库地址别名] [远程分支名]
-     +
-     git merge [远程库地址别名/远程分支名]
-     ```
+- 效果
+- 完整下载远程库
+- 创建 origin 远程地址别名
+- 初始化本地库
+
+### 邀请成员进入项目
+
+- ![邀请成员进项目](https://s2.ax1x.com/2019/08/17/muzinI.png)
+“A”把邀请链接发送给“B”，“B”登录自己的 GitHub账号，访问邀请链接。
+- ![邀请成员进项目](https://s2.ax1x.com/2019/08/18/mQ35X4.png)
+
+### 拉取
+
+- 在了解拉取这个操作之前，我们先了解另外一个操作`fetch`，即读取，抓取。它的主要作用是读取git远程库的内容。它的使用方法是:
+
+```bash
+git fetch [远程库地址别名] [远程分支名]
+```
+
+- 而`pull`，拉取命令，相当于读取和合并两个命令
+
+```bash
+git pull [远程库地址别名] [远程分支名]
+=
+git fetch [远程库地址别名] [远程分支名]
++
+git merge [远程库地址别名/远程分支名]
+```
 
 > <i class = "fa fa-quote-left fa-3x fa-pull-left"></i>终于，在三天的边学边写下，学完了大部分基础的Git和Github的操作。还是比较难的，建议新手可以再去看看别的教程。
 
