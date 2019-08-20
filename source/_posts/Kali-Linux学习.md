@@ -15,6 +15,7 @@ categories: 学习
 
 > <i class="fa fa-quote-left fa-3x fa-pull-left"></i>俗话说的好:"Kali用的好，局子进的早"Kali Linux是每个网络黑客需要学会的东西。它附带了很多渗透、攻防工具。  
 > Kali Linux，看名字就知道是一种Linux的发行版。学Kali Linux最好有Linux基础，否则学起来会有点吃力。所以可以先去看看Linux的教程，再来学Kali Linux。
+<!--more-->
 
 Kali Linux的安装(基于VMWare虚拟机)
 ===
