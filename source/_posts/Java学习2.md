@@ -7,6 +7,7 @@ tags:
 categories: 学习
 ---
 
+> 关于Java语言中的标识符
 <!--more-->
 
 什么是标识符？
