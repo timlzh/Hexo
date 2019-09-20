@@ -129,11 +129,11 @@ Git的命令行操作
 - 注意:这里设置的签名和登录远程库（代码托管中心）的账号密码没有任何关系
 - 命令
   - 项目级别/仓库级别:仅在当前本地库范围内有效
-    - git config XXX
-    - git config 1234@XXX.com
+    - git config user.name "XXX"
+    - git config user.email "1234@XXX.com"
   - 系统用户级别:登录当前操作系统的用户范围
-    - git config <font style="color:red">**--global**</font> XXX
-    - git config <font style="color:red">**--global**</font>  1234@XXX.com
+    - git config <font style="color:red">**--global**</font> user.name "XXX"
+    - git config <font style="color:red">**--global**</font>   user.email "1234@XXX.com"
   - 级别优先级
     - 就近原则:项目级别优先于系统用户级别，二者都有时采用项目级别
     - 不允许二者都没有
