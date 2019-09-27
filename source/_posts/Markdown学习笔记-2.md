@@ -11,9 +11,8 @@ categories: 学习
     <script src="https://use.fontawesome.com/9c273aaf8d.js"></script>
 </head> 
 
-```
-Tim开始了对Markdown高阶用法的探索！
-```
+> <i class="fa fa-quote-left"></i>Markdown真好用！<i class="fa fa-quote-right"></i>
+
 <!--more-->
 
 ---
