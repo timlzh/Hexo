@@ -8,7 +8,7 @@ categories: 学习
 ---
 
 <head>
-    <script src="https://use.fontawesome.com/9c273aaf8d.js"></script>
+    <link href="https://cdn.bootcss.com/font-awesome/5.10.2/css/all.css" rel="stylesheet">
 </head> 
 
 > <i class = "fa fa-quote-left fa-3x fa-pull-left"></i>Java是一门后端程序员必须会的语言，在计算机历史中，它的各种独特的特性在计算机历史上留下了浓墨重彩的一笔。它的跨平台特性更是方便了广大的程序员朋友。  

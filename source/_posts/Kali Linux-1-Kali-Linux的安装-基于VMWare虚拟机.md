@@ -11,7 +11,7 @@ categories: 学习
 
 
 <head>
-    <script src="https://use.fontawesome.com/9c273aaf8d.js"></script>
+   <link href="https://cdn.bootcss.com/font-awesome/5.10.2/css/all.css" rel="stylesheet">
 </head> 
 
 > <i class="fa fa-quote-left fa-3x fa-pull-left"></i>俗话说的好:"Kali用的好，局子进的早"Kali Linux是每个网络黑客需要学会的东西。它附带了很多渗透、攻防工具。  

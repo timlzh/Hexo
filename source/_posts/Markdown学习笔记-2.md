@@ -8,7 +8,7 @@ tags:
 categories: 学习
 ---
 <head>
-    <script src="https://use.fontawesome.com/9c273aaf8d.js"></script>
+    <link href="https://cdn.bootcss.com/font-awesome/5.10.2/css/all.css" rel="stylesheet">
 </head> 
 
 > <i class="fa fa-quote-left"></i>Markdown真好用！<i class="fa fa-quote-right"></i>

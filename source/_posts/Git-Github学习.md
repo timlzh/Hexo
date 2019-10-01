@@ -10,7 +10,7 @@ categories: 学习
 ---
 
 <head>
-    <script src="https://use.fontawesome.com/9c273aaf8d.js"></script>
+    <link href="https://cdn.bootcss.com/font-awesome/5.10.2/css/all.css" rel="stylesheet">
 </head> 
 
 > <i class = "fa fa-quote-left fa-3x fa-pull-left"></i>Git和Github是所有程序员都需要了解并且会使用的工具，它们能很好地让你对软件/代码的版本进行控制、多人协同编辑代码、代码开源、代码发布等等。~~Github也是世界上最大的同性交友平台~~，无论如何，Git和Github都是一个合格的程序员需要了解的东西。那么今天就开始Git&Github的探索之旅
