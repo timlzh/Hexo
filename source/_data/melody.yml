@@ -52,10 +52,10 @@ code_word_wrap: true
 # And you need to add the `fa` or `fab` prefix by your self.
 # ---------------
 social:
-  qq fa: http://wpa.qq.com/msgrd?v=3&uin=2921349622&site=qq&menu=yes
-  #zhihu fab: https://www.zhihu.com/people/timli-83-74/activities
-  github fa: https://github.com/timlzh/
-  weixin fa: /assets/img/WechatFriend.png
+  zhihu fab: https://www.zhihu.com/people/timli-83-74/activities
+  qq fab: http://wpa.qq.com/msgrd?v=3&uin=2921349622&site=qq&menu=yes
+  github fab: https://github.com/timlzh/
+  weixin fab: /assets/img/WechatFriend.png
 #icon_name fab: url
 
 # Algolia search
@@ -125,7 +125,7 @@ scripts:
 cdn:
   css:
     fontawesome: https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css
-    # fontawesomeV5: https://use.fontawesome.com/releases/v5.3.1/css/all.css
+    fontawesomeV5: https://use.fontawesome.com/releases/v5.3.1/css/all.css
   js:
     anime: https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js
     jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
@@ -255,16 +255,16 @@ busuanzi:
   enable: true
   # custom uv span for the whole site
   site_uv: true
-  site_uv_header: <i class="fa fa-user"></i>
-  site_uv_footer: <i class="fa fa-user"></i>
+  site_uv_header: <i class="fab fa-user"></i>
+  site_uv_footer: <i class="fab fa-user"></i>
   # custom pv span for the whole site
   site_pv: true
-  site_pv_header: <i class="fa fa-eye"></i>
-  site_pv_footer: <i class="fa fa-eye"></i>
+  site_pv_header: <i class="fab fa-eye"></i>
+  site_pv_footer: <i class="fab fa-eye"></i>
   # custom pv span for one page only
   page_pv: true
-  page_pv_header: <i class="fa fa-file-o"></i>
-  page_pv_footer: <i class="fa fa-file-o"></i>
+  page_pv_header: <i class="fab fa-file-o"></i>
+  page_pv_footer: <i class="fab fa-file-o"></i>
 
 # Sidebar Settings
 # ---------------
@@ -273,10 +273,10 @@ busuanzi:
 #Name: url
 
 # Follow Me Button
-# follow:
-#   enable: true
-#   url: ''
-#   text: ''
+follow:
+  enable: true
+  url: 'https://github.com/timlzh'
+  text: '在GitHub上给我一个小小的关注？'
 
 # Ads
 # ---------------
