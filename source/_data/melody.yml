@@ -2,16 +2,16 @@
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 # ---------------
-# theme_color:
-#   enable: true
-#   main: "#49B1F5"
-#   paginator: "#00C4B6"
-#   button_hover: "#FF7242"
-#   text_selection: "#00C4B6"
-#   link_color: "#858585"
-#   hr_color: "#A4D8FA"
-#   tag_start_color: "#A4D8FA"
-#   tag_end_color: "#1B9EF3"
+theme_color:
+  enable: true
+  main: "#F79BBA"
+  paginator: "#A4D8FA"
+  button_hover: "#dd8fa0"
+  text_selection: "#F79BBA"
+  link_color: "#858585"
+  hr_color: "#A4D8FA"
+  tag_start_color: "#F79BBA"
+  tag_end_color: "#f15187"
 
 # Main menu navigation
 menu:
@@ -137,7 +137,7 @@ cdn:
 # ---------------
 avatar: http://q1.qlogo.cn/g?b=qq&nk=2921349622&s=100
 
-top_img: /assets/img/BG.jpg # false or url of img
+top_img: https://s2.ax1x.com/2019/10/06/ug3VeA.md.png # false or url of img
 
 post_meta:
   date_type: created # created or updated
