@@ -31,7 +31,7 @@ Font Awesome基础
 
 效果:
 
-<i class="fa fa-weixin"></i> 我的微信
+<i class="fab fa-weixin"></i> 我的微信
 
 使用方法:  
 **第一步:在[Font Awesome的CDN站](http://www.fontawesome.com.cn/get-started/)注册并获取自己的js文件** 
@@ -56,7 +56,7 @@ Font Awesome基础
 我们可以去[FontAwesome官网](https://fontawesome.com/icons?d=gallery)找到心水的图标
 
 ```HTML
-    <i class="fa fa-weixin"></i> 我的微信
+    <i class="fab fa-weixin"></i> 我的微信
 ```
 
 ### 放大图标
@@ -64,32 +64,32 @@ Font Awesome基础
 
 **方法一:使用fa-nx放大**  
 效果:  
-<i class = "fa fa-weixin"></i>1x
-<i class = "fa fa-weixin fa-lg"></i>133%
-<i class = "fa fa-weixin fa-2x"></i>2x
-<i class = "fa fa-weixin fa-3x"></i>3x
+<i class = "fab fa-weixin"></i>1x
+<i class = "fab fa-weixin fa-lg"></i>133%
+<i class = "fab fa-weixin fa-2x"></i>2x
+<i class = "fab fa-weixin fa-3x"></i>3x
 
 代码:
 ```HTML
-<i class = "fa fa-weixin"></i>1x
-<i class = "fa fa-weixin fa-lg"></i>133%
-<i class = "fa fa-weixin fa-2x"></i>2x
-<i class = "fa fa-weixin fa-3x"></i>3x
+<i class = "fab fa-weixin"></i>1x
+<i class = "fab fa-weixin fa-lg"></i>133%
+<i class = "fab fa-weixin fa-2x"></i>2x
+<i class = "fab fa-weixin fa-3x"></i>3x
 缺点:最高支持五倍放大
 ```
 
 
 **方法二:使用font-size放大**  
 效果:  
-<i class = "fa fa-weixin" style = "font-size: 10px"></i>10px
-<i class = "fa fa-weixin" style = "font-size: 30px"></i>30px
-<i class = "fa fa-weixin" style = "font-size: 50px"></i>50px
+<i class = "fab fa-weixin" style = "font-size: 10px"></i>10px
+<i class = "fab fa-weixin" style = "font-size: 30px"></i>30px
+<i class = "fab fa-weixin" style = "font-size: 50px"></i>50px
 
 代码:
 ```HTML
-<i class = "fa fa-weixin" style = "font-size: 10px"></i>10px
-<i class = "fa fa-weixin" style = "font-size: 30px"></i>30px
-<i class = "fa fa-weixin" style = "font-size: 50px"></i>50px
+<i class = "fab fa-weixin" style = "font-size: 10px"></i>10px
+<i class = "fab fa-weixin" style = "font-size: 30px"></i>30px
+<i class = "fab fa-weixin" style = "font-size: 50px"></i>50px
 优点:无限放大
 缺点:麻烦
 ```
@@ -101,14 +101,14 @@ Font Awesome进阶
 
 效果:
 
-<i class = "fa fa-weixin fa-2x" style = "color:red"></i>红    
-<i class = "fa fa-weixin fa-2x" style = "color:green"></i>绿
+<i class = "fab fa-weixin fa-2x" style = "color:red"></i>红    
+<i class = "fab fa-weixin fa-2x" style = "color:green"></i>绿
 > 死亡配色...
 
 代码:
 ```HTML
-<i class = "fa fa-weixin fa-2x" style = "color:red"></i>红    
-<i class = "fa fa-weixin fa-2x" style = "color:green"></i>绿
+<i class = "fab fa-weixin fa-2x" style = "color:red"></i>红    
+<i class = "fab fa-weixin fa-2x" style = "color:green"></i>绿
 ```
 
 ### 让图标动起来
@@ -184,13 +184,13 @@ Font Awesome进阶
 ### ~~图标的堆叠~~
 
 效果: 
-```HTML   
+  
 <span class="fa-stack">
 <i class="fa fa-camera fa-stack-1x"></i>
 <i class="fa fa-ban fa-stack-2x" style = "color:red"></i>
 </span>
 禁止拍照
-```
+
 > 由于melody主题的问题，不能正常显示
 
 代码:   
